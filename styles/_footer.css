@@ -1,0 +1,14 @@
+.footer {
+  font-size: 14px;
+  background-color: #22353F;
+  text-align: center;
+  padding: 45px 0;
+}
+
+.footer_green {
+  color: #18CFAB;
+}
+
+.footer_white {
+  color: #fff;
+}

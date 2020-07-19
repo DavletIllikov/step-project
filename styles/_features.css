@@ -1,0 +1,37 @@
+.features {
+  display: flex;
+}
+
+.feature_item {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 25%;
+  height: 350px;
+}
+
+.feature_item:nth-child(2n-1) {
+  border-top: 7px solid #18CFAB;
+  background: #1C2A33;
+}
+
+.feature_item:nth-child(2n-1) p {
+  color: #18CFAB;
+  padding-top: 35px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.feature_item:nth-child(2n) {
+  border-top: 7px solid #fff;
+  background: #18CFAB;
+
+}
+
+.feature_item:nth-child(2n) p {
+  color: #fff;
+  padding-top: 35px;
+  font-size: 18px;
+  font-weight: bold;
+}
